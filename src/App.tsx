@@ -24,6 +24,7 @@ import MuiBagde from './components/MuiBadge';
 import MuiList from './components/MuiList';
 import MuiChip from './components/MuiChip';
 import MuiTable from './components/MuiTable';
+import MuiAlert from './components/MuiAlert';
 
 function App() {
   return (
@@ -46,12 +47,13 @@ function App() {
       <MuiBreadCrumb />
       <MuiDrawer />
       <MuiSpeedDial />
-      {/* <MuiBottomNavigation /> */}
+      {/* <MuiBottomNavigation />
       <MuiAvatar />
       <MuiBagde />
       <MuiList />
-      <MuiChip />
+      <MuiChip /> */}
       <MuiTable />
+      <MuiAlert />
     </div>
   );
 }

@@ -10,8 +10,8 @@ import {
 
 function MuiTable() {
   return (
-    <TableContainer>
-      <Table aria-label="simple table">
+    <TableContainer component={Paper} sx={{ maxHeight: '400px' }}>
+      <Table aria-label="simple table" stickyHeader>
         <TableHead>
           <TableRow>
             <TableCell>Id</TableCell>
