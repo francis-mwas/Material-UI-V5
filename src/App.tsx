@@ -30,6 +30,8 @@ import MuiDialog from './components/MuiDialog';
 import MuiSkeleton from './components/MuiSkeleton';
 import MuiLoadingButton from './components/MuiLoadingButton';
 import MuiTab from './components/MuiTab';
+import MuiMansonary from './components/MuiMansonary';
+import MuiResponsiveness from './components/MuiResponsiveness';
 
 function App() {
   return (
@@ -64,6 +66,8 @@ function App() {
       <MuiSkeleton />
       <MuiLoadingButton />
       <MuiTab />
+      <MuiMansonary />
+      <MuiResponsiveness />
     </div>
   );
 }
